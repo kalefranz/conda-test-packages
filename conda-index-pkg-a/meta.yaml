@@ -9,7 +9,7 @@ source:
 build:
   number: 0
   # noarch: python
-  script: python conda-index-pkg-a/setup.py install --single-version-externally-managed --record record.txt
+  script: cd conda-index-pkg-a && python setup.py install --single-version-externally-managed --record record.txt
   entry_points:
     - conda-index-pkg-a = conda_index_pkg_a:main
     - conda-index-pkg-a-helper = conda_index_pkg_a:helper
