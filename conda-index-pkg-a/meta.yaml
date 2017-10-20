@@ -30,7 +30,7 @@ test:
 about:
   home: https://anaconda.org/conda-test/conda-index-pkg-a
   license: BSD
-  license_file: LICENSE
+  license_file: conda-index-pkg-a/LICENSE.txt
   summary: Summary field for conda-index-pkg-a
   description: |
     Description field for conda-index-pkg-a. Actually, this is just the python description.
