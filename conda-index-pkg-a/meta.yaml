@@ -7,7 +7,7 @@ source:
    git_rev: master
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: cd conda-index-pkg-a && python setup.py install --single-version-externally-managed --record record.txt
   entry_points:
