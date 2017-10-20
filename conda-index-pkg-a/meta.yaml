@@ -9,7 +9,7 @@ source:
 build:
   number: 0
   # noarch: python
-  script: python setup.py install --single-version-externally-managed --record record.txt
+  script: python conda-index-pkg-a/setup.py install --single-version-externally-managed --record record.txt
   entry_points:
     - conda-index-pkg-a = conda_index_pkg_a:main
     - conda-index-pkg-a-helper = conda_index_pkg_a:helper
@@ -27,7 +27,6 @@ test:
   commands:
     - conda-index-pkg-a
 
-
 about:
   home: https://anaconda.org/conda-test/conda-index-pkg-a
   license: BSD
@@ -41,22 +40,6 @@ about:
     fewer lines of code than would be possible in languages such as C++ or
     Java. The language provides constructs intended to enable clear programs
     on both a small and large scale.
-  doc_url: https://www.python.org/doc/versions/
-  doc_source_url: https://github.com/python/pythondotorg/blob/master/docs/source/index.rst
-  dev_url: https://docs.python.org/devguide/
-
-
-
-"description",
-"dev_url",
-"doc_url",
-"doc_source_url",
-"home",
-"license",
-"source_url",
-"source_git_url",
-"source_git_tag",
-"source_git_rev",
-"summary",
-"version",
-"subdirs",
+  doc_url: https://github.com/kalefranz/conda-test-packages/blob/master/conda-index-pkg-a
+  doc_source_url: https://github.com/kalefranz/conda-test-packages/blob/master/conda-index-pkg-a/README.md
+  dev_url: https://github.com/kalefranz/conda-test-packages/blob/master/conda-index-pkg-a/meta.yaml
