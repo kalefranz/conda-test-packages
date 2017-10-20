@@ -8,7 +8,7 @@ source:
 
 build:
   number: 0
-  # noarch: python
+  noarch: python
   script: cd conda-index-pkg-a && python setup.py install --single-version-externally-managed --record record.txt
   entry_points:
     - conda-index-pkg-a = conda_index_pkg_a:main
@@ -31,7 +31,7 @@ about:
   home: https://anaconda.org/conda-test/conda-index-pkg-a
   license: BSD
   license_file: conda-index-pkg-a/LICENSE.txt
-  summary: Summary field for conda-index-pkg-a
+  summary: Summary field for conda-index-pkg-a. This is the python noarch version.
   description: |
     Description field for conda-index-pkg-a. Actually, this is just the python description.
     Python is a widely used high-level, general-purpose, interpreted, dynamic
